@@ -1,0 +1,27 @@
+body {
+    border: 200px;
+    padding: 20px;
+}
+
+h1 {
+    border: 10px;
+    color: black;
+    padding: 10px;
+}
+
+a {
+    color: red;
+}
+
+a:visited {
+    color: rgb(51, 51, 51)
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(255, 0, 0);
+}

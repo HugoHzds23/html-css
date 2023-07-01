@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+
+    <h1>Imagem Dinamica</h1>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <audio src="audio/music-dramatic.mp3" controls ></audio>
+
+    <audio preload="metadata" controls loop>
+        <source src="audio/music-dramatic.mp3" type="audio/mpeg">
+        <source src="audio/music-dramatic.mp3" type="audio/ogg">
+        <source src="audio/music-dramatic.mp3" type="audio.wav">
+        <p>infelizmente seu navedor nao consegue reproduzir este audio. Clique aqui para fazer o Download do audio</p>
+    </audio>
+    
+
+    <h1>Usando Links Externos</h1>
+    <p>Este é meu link para o repositorio do <a href="https://github.com/HugoHzds23" target="_blank" rel="external">GitHub</a></p>
+    <p>Voce tambem pode acessar o canal do <a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" target="_blank" rel="external" >Gustavo Guanabara</a> no Youtube</p>
+
+    <h2>Utilizando link internos</h2>
+    <p>Clique <a href="pagina2.html" rel="next">aqui</a> para ir na segunda pagina</p>
+    <p>Voce tambem pode acessar a <a href="noticias/pagina3.html">pagina</a> de noticias</p>
+
+    <h2>Link para Downloads</h2>
+    <ul>
+        <li><a href="livro/2.pdf" download>Livros PDF</a></li>
+        <li><a href="livro/2.pdf" target="_blank">Livro PDF</a></li>
+    </ul>
+
+    <h1>Imagem Dinamica</h1>
+
+
+</body>
+</html>

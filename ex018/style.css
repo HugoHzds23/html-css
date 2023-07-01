@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+
+
+main {
+    padding: 30px;
+    background-color: beige;
+    border-radius: 20px;
+}
+
+main h1 {
+    font-family: 'DM Serif Display', serif;
+    align-items: center;
+    text-align: center;
+
+}
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    text-align: justify;
+}
+
+main h2 {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+}

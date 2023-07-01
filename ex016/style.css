@@ -1,0 +1,8 @@
+* {
+    align-content: ;
+    flex-flow: row;
+    justify-content: center-start;       alinhando na horizontal
+    align-items: ;                       alinhando na vertical
+    flex-direction: column;                 alinhaento na horizontal podendo inverter as ordens
+    order: ()                                   colocando ou altererando as ordems;
+}
