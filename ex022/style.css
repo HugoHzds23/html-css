@@ -1,29 +1,66 @@
-h1 {
-    background-color: aliceblue;
-    height: 300px;
+body{
+    background-image: url(imagens/wallpaper003.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 98vh;
+
+}
+
+/*
+body{
+    height: 98vh;
+    background-image: url(https://gustavoguanabara.github.io/html-css/imagens/mascote.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px solid black;
+}
+/*
+
+/*
+.quadrado {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: antiquewhite;
     width: 300px;
-    border-width: 10px;
-    border-style: solid;
-    border-color: darkgray;
-
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-
-    margin: auto;
-    outline: 10px;
-    outline-style: solid;
+    height: 300px;
 }
 
-a {
-    border: 2px solid red;
-    border-radius: 100px;
-
-    padding: 10px 20px 30px 40px;
+div#q1{
+    background-color: skyblue;
 }
 
-p {
-    border-width: 2px;
-    border-style: solid;
+div#q2{
+    background-image: linear-gradient(to bottom, yellow, red);
 }
+
+div#q3{
+    background-image: url(imagens/pattern003.png);
+}
+
+
+.bloco {
+    background-image: url(imagens/wallpaper003.jpg);
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+div#s1{
+    background-position: left top;
+}
+
+div#s2{
+    background-position: left center;
+}
+
+div#s3{
+    background-position: right bottom;
+}
+
+div#s4{
+    background-position: center center;
+}
+/*
