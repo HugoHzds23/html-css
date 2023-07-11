@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+.text-normal{
+    background-color: white;
+    color: black;
+    padding-top: 7vh;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+.imagem{
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-bottom: 10vh;
+}
+
+#imagem1{
+    background-image: url(imagens/fundo01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#imagem2{
+    background-image: url(imagens/fundo02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+header > h1{
+    font-family: 'Passion One', cursive;
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+header > p {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+header > p > strong > a{
+    text-decoration: none;
+    color: white;
+}
+
+body > main > section{
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+    line-height: 2em;
+}
+
+body > main > section > p{
+    padding-bottom: 2em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+body > main > section.imagem {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow:  6px 6px 13px 0px rgba(0, 0, 0, 0.543);
+}
+
+body > main > section.imagem > p{
+    display: inline-block;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.7);
+    border-radius: 20px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font: normal 14pt Arial;
+    padding: 10px;
+}
+
+footer > p > strong > a{
+    color: white;
+    text-decoration: none;
+}
